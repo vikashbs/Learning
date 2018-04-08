@@ -30,6 +30,6 @@ public class GreetingControllerTests {
                 .andDo(print()).andExpect(status().isOk())
                 .andExpect(jsonPath("$.content").value("Hello, Spring Community!"));
 //Vikas changed on 08042018
-//added teh second comment
+//added teh second comment//***asdasdasd testing 123
     }
 }
